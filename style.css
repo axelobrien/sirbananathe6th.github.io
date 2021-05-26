@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    background: #28225a;
+    color: white;
+    font-family: Roboto;
+}
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 200px;
+    font-size: 40px;
+    border-radius: 4px;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.badge {
+    background: tomato;
+    font-size: 20px;
+    padding: 2px 5px;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -20px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -55px;
+}
+
+.result {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.choices {
+    text-align: center;
+
+}
+
+.choice {
+    margin: 50px 10px;
+    display: inline-block;
+    border: 5px solid white;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+#action-message {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.green-glow {
+    border: 5px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b431;
+}
+
+.red-glow {
+    border: 5px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: 5px solid gray;
+    box-shadow: 0 0 10px gray;
+}
