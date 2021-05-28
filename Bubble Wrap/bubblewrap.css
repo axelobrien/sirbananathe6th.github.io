@@ -1,0 +1,15 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: static;
+    -webkit-user-drag: none;
+}
+
+img:hover {
+    cursor: pointer;
+}
