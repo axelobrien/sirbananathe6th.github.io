@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    color: white;
+    background-color: #282830;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+a {
+    color: white;
+    background-color: #282830;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+button {
+    --gray2: #45c059;
+    --font-body: Consolas,sans-serif;
+    --font-size: 20px;
+    --text-color: var(--gray2);
+    --code-bg: #282c34;
+    
+    font-family: var(--font-body);
+    font-size: var(--font-size);
+    overflow-x: auto;
+    padding: 0.5em;
+    line-height: 1.5;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    background: var(--code-bg);
+    border: 5px #59606d solid;
+    border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h2 {
+--gray2: #bbc4cf;
+--font-body: Consolas,sans-serif;
+--font-size: 20px;
+--text-color: var(--gray2);
+--code-bg: #282c34;
+
+font-family: var(--font-body);
+font-size: var(--font-size);
+overflow-x: auto;
+padding: 1em;
+line-height: 1.5;
+color: var(--text-color);
+margin-bottom: 1rem;
+background: var(--code-bg);
+border: 7px #59606d solid;
+border-radius: 15px;
+}
+
+.codePreview {
+    display: flex;
+    justify-content: center;
+}
+
+.highlightText {
+    color: #98c379;
+}
+
+@media print {
+    body {
+        visibility: hidden;
+    }
+
+    .textToPrint {
+        visibility: visible;
+        color: black;
+    }
+}
