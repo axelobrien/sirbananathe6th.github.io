@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
+
 * {
     margin: 0%;
     padding: 0;
@@ -9,9 +11,6 @@
     text-align: center;
 }
 
-img {
-    -webkit-user-drag: none;
-}
 
 a {
     text-decoration: none;
@@ -28,10 +27,18 @@ header {
 .project {
     margin: 0px 20px;
     display: inline-block;
-    border: 5px solid white;
     padding: 10px;
     overflow: hidden;
     border-radius: 50%;
+    --imageSize: 200px;
+}
+
+.project img {
+    -webkit-user-drag: none;
+    border: 5px solid white;
+    border-radius: var(--imageSize);
+    width: var(--imageSize);
+    height: var(--imageSize);
 }
 
 .project:hover {

@@ -11,6 +11,8 @@
 
 img {
     -webkit-user-drag: none;
+    border-radius: 200px;
+    border: 5px solid white;
 }
 
 header {
@@ -65,7 +67,6 @@ header h1 {
 .choice {
     margin: 50px 10px;
     display: inline-block;
-    border: 5px solid white;
     padding: 10px;
     overflow: hidden;
     border-radius: 50%;
